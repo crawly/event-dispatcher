@@ -1,0 +1,25 @@
+{
+    "name": "crawly/event-dispatcher",
+    "description": "Event dispatcher component for Zend Expressive",
+    "authors": [
+        {
+            "name": "Luiz Henrique Gomes Palacio",
+            "email": "lhpalacio@outlook.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.1",
+        "psr/container": "^1.0"
+    },
+    "extra": {
+        "zf": {
+            "config-provider": "Crawly\\EventDispatcher\\ConfigProvider"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Crawly\\EventDispatcher\\": "src"
+        }
+    }
+}
